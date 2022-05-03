@@ -1,0 +1,4 @@
+a = int(input('第一個數字'))
+b = int(input('第二個數字'))
+c=int(a**2+b**2)
+print(c)
