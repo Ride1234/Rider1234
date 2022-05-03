@@ -1,0 +1,5 @@
+r = int(input("輸入圓的半徑"))
+b = int(r**2*3.14)
+c = int(r*2*3.14)
+print("圓面積為:"+str(b))
+print("圓周長為:"+str(c))
