@@ -1,0 +1,17 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main(){
+    int r;
+    
+    printf("請輸入圓半徑大小:\n");
+    scanf("%d",&r);
+    
+    if( r >= 0 ){
+        printf("圓面積大小為 %d \n", r*=3.14);
+    }else{
+        printf("圓半徑大小不可為負數");
+    }
+    
+    return 0;
+}
