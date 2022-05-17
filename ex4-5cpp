@@ -1,0 +1,25 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main(){
+    int x;
+    
+    printf("請輸入您的成績:\n");
+    scanf("%d",&x);
+    
+    if( x <= 100 && x >= 90 ){
+        printf("您的成績為A等");
+    }else if ( x < 90 && x >= 80){
+        printf("您的成績為B等");
+    }else if ( x < 80 && x >= 70){
+        printf("您的成績為C等");
+    }else if ( x < 70 && x >= 60){
+        printf("您的成績為D等");
+    }else if ( x < 60 && x >= 0){
+        printf("您的成績為E等");
+    }else{
+        printf("成績輸入錯誤,請重新檢查您輸入的成績");
+    }
+    
+    return 0; 
+}
