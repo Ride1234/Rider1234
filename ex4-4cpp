@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main(){
+    int x;
+    
+    printf("請輸入年分:\n");
+    scanf("%d",&x);
+    
+    if( x%4 > 0 ){
+        printf("今年是平年");
+    }else{
+        printf("今年是閏年");
+    }
+    return 0;
+}
