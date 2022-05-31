@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    printf("請輸入2個數字:");
+    scanf("%d,%d",&a,&b);
+    printf("%d+%d=? ",a,b);
+    scanf("%d",&c);
+    if (a+b==c){
+        printf("true");
+    }else
+    printf("flase");
+
+
+    return 0;
+}
