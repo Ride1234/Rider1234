@@ -1,0 +1,46 @@
+#include <stdio.h>
+int addNumbers(int a, int b); // function prototype
+int subNumbers(int a, int b);
+int aNumbers(int a, int b);
+int bNumbers(int a, int b);
+int main()
+{
+    int n1,n2,sum;
+    printf("Enters two numbers: ");
+    scanf("%d %d",&n1,&n2);
+    sum = addNumbers(n1, n2);  // function call
+    printf("sum = %d \n",sum);
+    sum = subNumbers(n1, n2);  // function call
+    printf("sub = %d \n",sum);
+    sum = aNumbers(n1, n2);  // function call
+    printf("sum = %d \n",sum);
+    sum = bNumbers(n1, n2);  // function call
+    printf("sum = %d \n",sum);
+    return 0;
+}
+
+int addNumbers(int a, int b)         // function definition   
+{
+    int result;
+    result = a+b;
+    return result;                
+}
+int subNumbers(int a, int b) 
+{
+    int result;
+    result = (a>b)? (a-b): (b-a);
+    return result;
+}
+int aNumbers(int a, int b) 
+{
+    int result;
+    result = a*b;
+    return result;
+}
+int bNumbers(int a, int b) 
+{
+    int result;
+        result = (a>b)? (a/b): (b/a);
+    return result;                    
+    //return statement
+}
