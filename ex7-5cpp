@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int a;
+int main()
+{
+    printf("輸入a分鐘:");
+    scanf("%d",&a);
+    printf("%d小時%d分鐘",a/60,a%60);
+
+    return 0;
+}
