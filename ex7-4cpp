@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int a,b;
+int main()
+{
+printf("輸入長方形的長與寬");
+scanf("%d %d",&a,&b);
+printf("長方形面積:%d",a*b);
+
+    return 0;
+}
