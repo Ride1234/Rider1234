@@ -1,0 +1,12 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int a;
+int main()
+{
+    printf("輸入a degree C:");
+    scanf("%d",&a);
+    printf("degree F:%d",a*9/5+32+);
+
+    return 0;
+}
